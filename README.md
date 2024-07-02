@@ -9,3 +9,8 @@
 
 ## code
 [field](./field/)
+
+## book
+[moon-math](./book/main-moonmath.pdf)
+## course
+[zkhack](https://zkhack.dev/zk-study-group-moonmath-manual/)
