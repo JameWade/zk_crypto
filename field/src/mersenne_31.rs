@@ -43,7 +43,7 @@ impl Sub for Mersenne31{
         let (mut sub, over) = self.value.overflowing_sub(rhs.value);
 
         sub -= over as u32;
-        Self::new(sub & Self::ORDER_U32)
+        Self::new(sub & P)
     }
 }
 
